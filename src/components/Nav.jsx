@@ -16,7 +16,7 @@ export default function Nav(){
             <ul className="nav-list">
                 {navLinks.map((link) => {
                     return(
-                        <li className="nav-list__link">
+                        <li key={link.name} className="nav-list__link">
                             <Link to={link.path}>{link.name}</Link>
                         </li>
                     )

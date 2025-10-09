@@ -1,3 +1,14 @@
+import Header from "../components/Header"
+import imgData from "../assets/imgData.json"
+
 export default function Explore(){
-    return
+    console.log(imgData.food)
+    return(
+        <>
+            <Header titleName="Explore"/>
+            <section>
+                
+            </section>
+        </>
+    )
 }
