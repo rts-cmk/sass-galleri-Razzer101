@@ -1,3 +1,4 @@
+import { useState } from "react"
 import { Link } from "react-router"
 
 export default function Nav(){
@@ -10,18 +11,20 @@ export default function Nav(){
         {path: "/travel", name: "Travel"}
     ]
 
+    const [toggleDisplay, setToggleDisplay] = useState("block")
+
     return(
         <nav className="nav-section">
-            <button className="nav-section__burger-menu"></button>
-            <ul className="nav-list">
+            <button onClick={() =>setToggleDisplay(toggleDisplay === "none" ? "block" : "none")} className="nav-section__burger-menu">&#9776;</button>
+            <ul className={`nav-section__list nav-section__list--${toggleDisplay}`}>
                 {navLinks.map((link) => {
                     return(
-                        <li key={link.name} className="nav-list__link">
+                        <li key={link.name} className="nav-section__link">
                             <Link to={link.path}>{link.name}</Link>
                         </li>
                     )
                 })}
-                <li className="nav-list__link">
+                <li className="nav-section__link">
                     <button>More <span>&#8628;</span></button>
                 </li>
             </ul>

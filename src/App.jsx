@@ -6,7 +6,6 @@ import Home from "./pages/Home.jsx"
 import Travel from "./pages/Travel.jsx"
 import Error from "./pages/Error.jsx"
 import Searchbar from "./components/Searchbar"
-import Nav from "./components/Nav"
 import Footer from "./components/Footer"
 
 function App() {
@@ -22,7 +21,6 @@ function App() {
         <Route path="/travel" element={<Travel/>}/>
         <Route path="*" element={<Error/>}/>
       </Routes>
-      <Nav/>
       <Footer/>
     </>
   )

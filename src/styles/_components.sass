@@ -1,0 +1,99 @@
+@use "variables" as var
+
+/* #region Searchbar */
+.searchbar-section
+    border-bottom: 2px solid var.$searchbar-color
+    padding: 10px 0 10px 0
+    margin-bottom: 3em
+
+    .searchbar-form
+        width: 100%
+        display: flex
+        justify-content: center
+
+        &__input
+            width: 80%
+            background-color: var.$searchbar-color
+            border: none
+            padding: 10px 15px 10px 15px
+            color: #696969
+            font-weight: bold
+            font-size: 1em
+
+            &::placeholder
+                color: #696969
+                font-weight: bold
+                font-size: 1em
+/* #endregion */
+
+/* #region Header */
+.header-section
+    padding: 0 15px
+
+    &__title
+        font-size: 2.4em
+        margin-top: 0
+        margin-bottom: 15px
+/* #endregion */
+
+/* #region Nav */
+.nav-section
+    padding: 0 10px
+
+    &__burger-menu
+        background-color: transparent
+        border: 2px solid #f4f4f4
+        color: #9d9d9d
+        font-size: 1.8em
+        padding: 2px 15px
+        border-radius: 7px
+        margin-bottom: 10px
+
+    &__list
+        padding-left: 5px
+        margin: 0
+        list-style: none
+
+        &--block
+            display: block
+
+        &--none
+            display: none
+
+    &__link
+        margin-bottom: 8px
+
+        a
+            text-decoration: none
+            color: #9d9d9d
+            font-size: 1.4em
+            font-weight: bold
+
+        button
+            background-color: transparent
+            border: none
+            color: #9d9d9d
+            font-size: 1.4em
+            padding: 0
+            font-weight: bold
+
+        &:last-child
+            margin-bottom: 5px
+/* #endregion */
+
+/* #region Footer */
+.footer-section
+    border-top: 2px solid #f4f4f4
+    padding: 3em 0
+    margin-top: 4em
+
+    .footer-list
+        padding: 0
+        margin: 0
+        list-style: none
+        display: flex
+        justify-content: center
+
+        &__link
+            margin: 0 10px
+/* #endregion */

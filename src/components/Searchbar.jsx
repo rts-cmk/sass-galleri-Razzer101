@@ -1,7 +1,9 @@
 export default function Searchbar(){
     return(
         <section className="searchbar-section">
-            <input className="searchbar-section__input" type="text" placeholder="Search..."/>
+            <form className="searchbar-form">
+                <input className="searchbar-form__input" type="text" placeholder="Search..."/>
+            </form>
         </section>
     )
 }

@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Twitter } from "lucide-react";
+import { Facebook, Instagram, Twitter, Youtube, Linkedin } from "lucide-react";
 
 export default function Footer(){
     return(
@@ -7,6 +7,8 @@ export default function Footer(){
                 <li className="footer-list__link"><Facebook /></li>
                 <li className="footer-list__link"><Twitter /></li>
                 <li className="footer-list__link"><Instagram /></li>
+                <li className="footer-list__link"><Youtube /></li>
+                <li className="footer-list__link"><Linkedin /></li>
             </ul>
         </footer>
     )
