@@ -11,11 +11,11 @@ export default function Nav(){
         {path: "/travel", name: "Travel"}
     ]
 
-    const [toggleDisplay, setToggleDisplay] = useState("block")
+    const [toggleDisplay, setToggleDisplay] = useState("none")
 
     return(
         <nav className="nav-section">
-            <button onClick={() =>setToggleDisplay(toggleDisplay === "none" ? "block" : "none")} className="nav-section__burger-menu">&#9776;</button>
+            <button onClick={() =>setToggleDisplay(toggleDisplay === "none" ? "grid" : "none")} className="nav-section__burger-menu">&#9776;</button>
             <ul className={`nav-section__list nav-section__list--${toggleDisplay}`}>
                 {navLinks.map((link) => {
                     return(
