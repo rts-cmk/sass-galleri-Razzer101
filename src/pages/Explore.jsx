@@ -1,5 +1,6 @@
 import Header from "../components/Header"
 import Nav from "../components/Nav"
+import Gallery from "../components/Gallery"
 import imgData from "../assets/imgData.json"
 
 export default function Explore(){
@@ -9,13 +10,7 @@ export default function Explore(){
         <>
             <Header titleName="Explore"/>
             <Nav/>
-            <section className="explore-gallery">
-                {exploreImgs.map((imgElm) => {
-                    return(
-                        <img loading="lazy" className="explore-gallery__img" key={imgElm.name} src={`/${imgElm.name}`} alt={imgElm.name} />
-                    )
-                })}
-            </section>
+            <Gallery page={exploreImgs}/>
         </>
     )
 }

@@ -5,7 +5,7 @@ export default function Nav(){
 
     const navLinks = [
         {path: "/", name: "Explore"},
-        {path: "lifestyle", name: "Lifestyle"},
+        {path: "/lifestyle", name: "Lifestyle"},
         {path: "/food", name: "Food"},
         {path: "/home", name: "Home"},
         {path: "/travel", name: "Travel"}
