@@ -23,7 +23,6 @@ export default function Explore(){
         imgData.lifestyle[3]
     )
     const exploreImgs = newImgData.sort(() => Math.random() - .5)
-    console.log(exploreImgs)
 
     return(
         <>
