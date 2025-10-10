@@ -20,6 +20,15 @@
         },
         {
             "name": "home7.jpg"
+        },
+        {
+            "name": "home8.jpg"
+        },
+        {
+            "name": "home9.jpg"
+        },
+        {
+            "name": "home10.jpg"
         }
     ],
     "food":[
@@ -43,6 +52,15 @@
         },
         {
             "name": "food7.jpg"
+        },
+        {
+            "name": "food8.jpg"
+        },
+        {
+            "name": "food9.jpg"
+        },
+        {
+            "name": "food10.jpg"
         }
     ],
     "lifestyle":[
@@ -66,6 +84,15 @@
         },
         {
             "name": "lifestyle7.jpg"
+        },
+        {
+            "name": "lifestyle8.jpg"
+        },
+        {
+            "name": "lifestyle9.jpg"
+        },
+        {
+            "name": "lifestyle10.jpg"
         }
     ],
     "travel":[
@@ -89,6 +116,15 @@
         },
         {
             "name": "travel7.jpg"
+        },
+        {
+            "name": "travel8.jpg"
+        },
+        {
+            "name": "travel9.jpg"
+        },
+        {
+            "name": "travel10.jpg"
         }
     ]
     
