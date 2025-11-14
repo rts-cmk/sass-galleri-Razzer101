@@ -1,0 +1,131 @@
+{
+    "home":[
+        {
+            "name": "home1.jpg"
+        },
+        {
+            "name": "home2.jpg"
+        },
+        {
+            "name": "home3.jpg"
+        },
+        {
+            "name": "home4.jpg"
+        },
+        {
+            "name": "home5.jpg"
+        },
+        {
+            "name": "home6.jpg"
+        },
+        {
+            "name": "home7.jpg"
+        },
+        {
+            "name": "home8.jpg"
+        },
+        {
+            "name": "home9.jpg"
+        },
+        {
+            "name": "home10.jpg"
+        }
+    ],
+    "food":[
+        {
+            "name": "food1.jpg"
+        },
+        {
+            "name": "food2.jpg"
+        },
+        {
+            "name": "food3.jpg"
+        },
+        {
+            "name": "food4.jpg"
+        },
+        {
+            "name": "food5.jpg"
+        },
+        {
+            "name": "food6.jpg"
+        },
+        {
+            "name": "food7.jpg"
+        },
+        {
+            "name": "food8.jpg"
+        },
+        {
+            "name": "food9.jpg"
+        },
+        {
+            "name": "food10.jpg"
+        }
+    ],
+    "lifestyle":[
+        {
+            "name": "lifestyle1.jpg"
+        },
+        {
+            "name": "lifestyle2.jpg"
+        },
+        {
+            "name": "lifestyle3.jpg"
+        },
+        {
+            "name": "lifestyle4.jpg"
+        },
+        {
+            "name": "lifestyle5.jpg"
+        },
+        {
+            "name": "lifestyle6.jpg"
+        },
+        {
+            "name": "lifestyle7.jpg"
+        },
+        {
+            "name": "lifestyle8.jpg"
+        },
+        {
+            "name": "lifestyle9.jpg"
+        },
+        {
+            "name": "lifestyle10.jpg"
+        }
+    ],
+    "travel":[
+        {
+            "name": "travel1.jpg"
+        },
+        {
+            "name": "travel2.jpg"
+        },
+        {
+            "name": "travel3.jpg"
+        },
+        {
+            "name": "travel4.jpg"
+        },
+        {
+            "name": "travel5.jpg"
+        },
+        {
+            "name": "travel6.jpg"
+        },
+        {
+            "name": "travel7.jpg"
+        },
+        {
+            "name": "travel8.jpg"
+        },
+        {
+            "name": "travel9.jpg"
+        },
+        {
+            "name": "travel10.jpg"
+        }
+    ]
+    
+}
